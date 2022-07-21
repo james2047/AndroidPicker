@@ -58,7 +58,7 @@ public abstract class BottomDialog extends BaseDialog {
     public void onShow(DialogInterface dialog) {
         super.onShow(dialog);
         if (enableMaskView()) {
-            addMaskView();
+//            addMaskView();
         }
     }
 
