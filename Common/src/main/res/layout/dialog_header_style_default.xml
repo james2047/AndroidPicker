@@ -11,8 +11,9 @@
   ~ See the Mulan PSL v2 for more details.
   -->
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.noober.background.view.BLFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Style_Bg_White_Top_Corners16dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -58,4 +59,4 @@
         android:textColor="#FF0081FF"
         android:textSize="15sp" />
 
-</FrameLayout>
+</com.noober.background.view.BLFrameLayout>

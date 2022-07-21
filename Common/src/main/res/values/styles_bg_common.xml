@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    通用样式背景
+
+    1.样式重构
+    https://github.com/JavaNoober/BackgroundLibrary/wiki/ 所有的bl具体属性
+    也可以看project下的bl文件
+    2.如果需要预览可用BL_XView, 例如 BLTextView, BLLinearLayout，如果不需要预览忽略
+    3.理论上只有红白灰 三种主色 会放在common,其它特殊颜色放在special
+    4.xml 组件直接引用style
+-->
+
+<resources>
+    <!--圆角base-->
+    <style name="Style_Bg_Corners">
+        <item name="bl_shape">rectangle</item>
+        <item name="bl_corners_radius">3dp</item>
+    </style>
+    <!--白色背景不带圆角base-->
+    <style name="Style_Bg_White">
+        <item name="bl_shape">rectangle</item>
+        <item name="bl_solid_color">#FFFFFF</item>
+    </style>
+
+    <style name="Style_Bg_White_Top_Corners16dp" parent="@style/Style_Bg_White">
+        <item name="bl_shape">rectangle</item>
+        <item name="bl_solid_color">#ffffff</item>
+        <item name="bl_corners_topLeftRadius">16dp</item>
+        <item name="bl_corners_topRightRadius">16dp</item>
+    </style>
+
+
+</resources>
